@@ -1,0 +1,110 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f96302;
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.icons i {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.search-box {
+  padding: 1rem;
+  background: #f2f2f2;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.category {
+  background: #fff0e5;
+  border-radius: 12px;
+  padding: 1.2rem 0.5rem;
+  color: #f96302;
+  font-weight: 500;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-button {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 90%;
+  background: #f96302;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.offers, .recommended {
+  padding: 1rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  color: #f96302;
+}
+
+.placeholder {
+  background: #f2f2f2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 0.9rem 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-decoration: none;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
